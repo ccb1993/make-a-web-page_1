@@ -1,0 +1,49 @@
+body {
+  padding: 20px 20px;
+  font: 1.2em'Arial';
+  max-width: 2000px;
+  margin: 0 auto;
+  background-color: #faffff;
+}
+
+h1 {
+  text-align: center;
+  color: red
+}
+
+h2 {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+}
+
+li {
+  font-size: 20px;
+  line-height: 44px;
+}
+
+.lesson {
+  background-color: #E6E6E6;
+  border-radius: 40px;
+  margin: 15px auto;
+  padding: 5px
+}
+
+.concept {
+  color: black;
+  font-family: helvectia;
+  border-radius: 5px;
+  margin: 5px 10px;
+}
+
+.concept-header {
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px
+}
+
+.concept-explanation {
+  font-weight: lighter;
+  margin: 10px
+}

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+
+
+    <title>A Pen by  Christopher Bruno</title>
+    
+    
+    
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <!DOCTYPE html>
+
+<head>
+  <title>Chris' Notes</title>
+  <link rel="stylesheet" href="chris-style.css">
+</head>
+
+<body>
+  <div class="table.of.contents">
+    <h1>Table of Contents</h1>
+    <ol>
+      <li><a href="#lesson1">Lesson 1:Web Basics & HTML</a>
+        <ul>
+          <li><a href="#lesson1.1">World Wide Web: How it Works</a></li>
+          <li><a href="#lesson1.2">HTML</a></li>
+          <li><a href="#lesson1.3">Tags and Elements</a></li>
+          <li><a href="#lesson1.4">Computers are Stupid</a></li>
+          <li><a href="#lesson1.5">Inline vs. Block Elements</a></li>
+        </ul>
+      </li>
+      <li><a href="#lesson2">Creating Strucuture with HTML</a>
+        <ul>
+          <li><a href="#lesson2.1">Discovering Structure of Webpages using Developer Tools</a></li>
+          <li><a href="#lesson2.2">"Tree Structure" of HTML</a></li>
+          <li><a href="#lesson2.3">Text Editors</a></li>
+          <li><a href="#lesson2.4">Box Sizing and Positioning</a></li>
+        </ul>
+      </li>
+      <li><a href="#lesson3">Adding Style to HTML with CSS</a>
+        <ul>
+          <li><a href="#lesson3.1">Avoiding Repetition</a></li>
+          <li><a href="#lesson3.2">Strategies for coding CSS</a></li>
+          <li><a href="#lesson3.3">What does CSS Stand for</a></li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+
+  <h1>Important Concepts</h1>
+
+  <div class="lesson">
+    <h2 id="lesson1">Lesson 1: Web Basics & HTML</h2>
+    <div class="concept" id="lesson1.1">
+      <div class="concept-header">World Wide Web: How it Works
+      </div>
+      <div class="concept-explanation">
+        <ul>
+          <li>Many computers communicate with eachother</li>
+          <li>When someone goes to a web page, an <em>HTTP Request</em> is sent to a <em>server</em> (computer at another location hosting web files)</li>
+          <li>Servers send back appropriate <em>HTML</em> documents to fulfill requests sent by user computers</li>
+          <li>Computers interpret HTML documents via browsers</li>
+        </ul>
+      </div>
+    </div>
+    <div class="concept" id="lesson1.2">
+      <div class="concept-header">HTML</div>
+      <div class="concept-explanation">
+        "Hyper Text Markup Language"
+        <ul>
+          <li>HTML documents are the basis of the web and form most web content</li>
+          <li><em>text content</em> is "what you see"</li>
+          <li><em>markup</em> is "what it looks like"</li>
+          <li>used to reference other documents and provide links to other pages</li>
+          <li>regular text in HTML will appear as just regular text</li>
+        </ul>
+      </div>
+    </div>
+    <div class="concept" id="lesson1.3">
+      <div class="concept-header">Tags and Elements</div>
+      <div class="concept-explanation">
+        <ul>
+          <li>HTML documents consist of HTML <em>elements</em></li>
+          <li>Elements consist of <em>tags</em> (opening at the beginning, closing at the end) which define the properties of text inside HTML documents</li>
+          <li>example of a tag: "em" to make text italicized</li>
+        </ul>
+      </div>
+    </div>
+    <div class="concept" id="lesson1.4">
+      <div class="concept-header">Computers are Stupid</div>
+      <div class="concept-explanation">
+        <ul>
+          <li>They interpret instructions literally, so small mistakes can cause huge problems. They don't have deductive reasoning skills like people (not always).</li>
+        </ul>
+      </div>
+    </div>
+    <div class="concept" id="lesson1.5">
+      <div class="concept-header">Basic Structure - Inline vs. Block Elements</div>
+      <div class="concept-explanation">
+        <ul>
+          <li><em>Inline</em> elements stay in line</li>
+          <li><em>Block</em> elements form a "box" around what is inside them making the content a package deal with regards to where it is located on a page</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--closing "lesson" div (on last one, use 3 divs, 1 for the main "lesson", second for "conept", third for "concept explanation"-->
+
+  <div class="lesson">
+    <h2 id="lesson2">Lesson 2: Creating Structure with HTML</h2>
+    <div class="concept" id="lesson2.1">
+      <div class="concept-header">Discovering Strucutre of Webpages using Developer Tools</div>
+      <div class="concept-explanation">
+        <ul>
+          <li>Developer tools can be accessed from the browser</li>
+          <li>HTML elements can be seen in blocks (boxes). Blocks form around whatever element is inside an HTML document</li>
+          <li>Style can be seen in the <em>styles</em> section on the right-hand side of developer tools</li>
+          <li>by clicking through the triangles on the left-hand side of Developer tools, you can see most elements in an HTML page</li>
+        </ul>
+        Hint: you can right-click and click "inspect element" to automatically access Developer Tools
+      </div>
+    </div>
+    <div class="concept" id="lesson2.2">
+      <div class="concept-header">"Tree Structure" of HTML</div>
+      <div class="concept-explanation">
+        <ul>
+          <li>Elements fall under elements in html</li>
+          <li>the more indented an element is, the more ingrained into a block it is</li>
+        </ul>
+      </div>
+    </div>
+    <div class="concept" id="lesson2.3">
+      <div class="concept-header">Text Editors</div>
+      <div class="concept-explanation">
+        <ul>
+          <li>
+            can use programs like <b>sublime</b> to automatically create tags and easily correspond two languages in one document (e.g. add css styling to html document)</li>
+          <li>can link a styling language directly inside an html document by using "head" tag</li>
+        </ul>
+      </div>
+    </div>
+    <div class="concept" id="lesson2.4">
+      <div class="concept-header">Box Sizing and Positioning</div>
+      <div class="concept-explanation">
+        <ul>
+          <li>HTML elements are boxes with 4 components</li>
+          <li>Sizing: each component of an "element box" has a certain measurement in pixels which changes depending on the web page</li>
+          <li>Positioning: div elements take the whole length of a page in line (using certain elements like display:flex it is possible to change this property)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="lesson">
+    <h2 id="lesson3">Lesson 3: Adding Style to HTML with CSS</h2>
+    <div class="concept" id="lesson3.1">
+      <div class="concept-header">Avoiding Repetition</div>
+      <div class="concept-explanation">
+        Avoiding repetition is very important!!
+        <ul>
+          <li><b>Avoiding Errors:</b> When programmers use repetition too much, they have to do the same task over and over. This means that if they need to replace one element with another, they need to go into their HTML documents replacing each element
+            (Tedious tasks like this leave room for error if they miss one change). If you avoid repetition, you don't need to worry as much about replacing code every single place it appears. </li>
+          <li><b>Consistency:</b>By avoiding repetition, it makes it easy for programmers to have one change be applied to multiple places at once. For example, in this assignment, I have used class = "lesson" so that when I make design changes to anything
+            under "lesson" it is applied across the entire document as opposed to individually changing each section if they didn't have class = "lesson". </li>
+        </ul>
+      </div>
+    </div>
+    <div class="concept" id="lesson3.2">
+      <div class="concept-header">Strategies for coding CSS</div>
+      <div class="concept-explanation">
+        <ol>
+          <li>look for natural boxes</li>
+          <li>look for repeated styles and semantic elements</li>
+          <li>write your html</li>
+          <li>apply styles (biggest to smallest)</li>
+          <li>fix things</li>
+        </ol>
+      </div>
+    </div>
+    <div class="concept" id="lesson3.3">
+      <div class="concept-header">What does CSS Stand for?</div>
+      <div class="concept-explanation">
+        Cascasing Styling Sheets
+        <ul>
+          <li>Cascading = most specific rules are those applied at the highest level as well</li>
+          <li>Cascading implies <em>inheritance</em> meaning that properties are not only applied to a specific element, but also its descendents</li>
+          <li>Descendent elements (those which are more indendented) inherit any CSS property value from any ancestor element enclosing them</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+    
+    
+    
+    
+    
+  </body>
+</html>
